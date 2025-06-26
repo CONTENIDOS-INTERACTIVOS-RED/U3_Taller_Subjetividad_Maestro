@@ -22,11 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los comienzos de la humanidad, la relación entre los principios éticos, el desarrollo económico y la sostenibilidad ha sido fundamental para garantizar un progreso equilibrado y equitativo. En un contexto globalizado, donde los desafíos éticos y ambientales son cada vez más evidentes, la bioética emerge como una herramienta clave para orientar decisiones económicas responsables que respeten tanto el medio ambiente como los derechos humanos.
-
-              p.descripcion.mb-4 En esta unidad, profundizaremos en el rol de la bioética como pilar de la sostenibilidad en el desarrollo económico, explorando temas esenciales como la aplicación de principios éticos al uso de recursos naturales, la influencia de las políticas globales en la protección de los derechos humanos y la ética en la innovación tecnológica. 
+              p.descripcion.mb-4 Desde tiempos remotos, el castigo ha sido una práctica común en la crianza infantil, justificado muchas veces como una forma válida de disciplina. Sin embargo, en esta unidad se cuestionan críticamente estas creencias arraigadas, explorando las implicaciones emocionales, psicológicas y sociales que el castigo —ya sea físico o emocional— tiene sobre el desarrollo de los niños y las niñas. Se analizarán situaciones reales de maltrato infantil en Colombia, la historia de estas prácticas y, lo más importante, se presentarán alternativas respetuosas para educar desde el afecto, la empatía y la comprensión. 
               
-              p #[b Prepárate para explorar los retos y oportunidades que la sostenibilidad y la bioética presentan en un mundo en constante evolución.]
+              p #[b ¡Prepárese para transformar sus prácticas educativas hacia una crianza más respetuosa, consciente y empática!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -108,7 +106,7 @@ export default {
         background-color: $color-acento-botones
         padding: 12px 42px 12px 32px
         width: 100%
-        color: #fff !important
+        color: #000 !important
     .icon
       background-color: $color-sistema-e
       padding: 0px 20px
